@@ -1,4 +1,3 @@
-
 #include "ParticleSystemUI.h"
 
 #include "imgui.h"

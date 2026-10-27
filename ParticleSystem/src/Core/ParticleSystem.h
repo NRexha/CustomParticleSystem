@@ -12,37 +12,37 @@ class ParticleSystem
 public:
     static constexpr int ParticleCount = 10000;
 
-    float spawnRate = 100.0f;
+    float spawnRate = 400.0f;
     float lifetimeMin = 5.0f;
     float lifetimeMax = 9.0f;
 
     float emitterRadius = 0.17f;
-    float emitterBaseRadius = 0.03f;
+    float emitterBaseRadius = 0.04f;
 
     float initialSpeedMin = 0.12f;
     float initialSpeedMax = 0.32f;
 
     float attractionStrength = 0.16f;
     float vortexStrength = 0.18f;
-    float turbulenceStrength = 0.28f;
+    float turbulenceStrength = 0.4f;
     float turbulenceScale = 2.2f;
-    float damping = 0.30f;
+    float damping = 0.50f;
 
-    float orbitalBias = 0.8f;
-    float radialBias = 0.35f;
+    float orbitalBias = 1.2f;
+    float radialBias = 0.95f;
 
-    float trailDecay = 0.975f;
+    float trailDecay = 0.95f;
 
-    float colorStart[3] = { 0.08f, 0.9f, 1.0f };
+    float colorStart[3] = { 1.0f, 0.267f, 0.078f };
     float colorEnd[3] = { 0.35f, 0.18f, 1.0f };
     float colorVariation = 0.1f;
-    float brightness = 1.0f;
+    float brightness = 1.5f;
 
-    float randomSizeMin = 4.0f;
-    float randomSizeMax = 10.0f;
+    float randomSizeMin = 5.0f;
+    float randomSizeMax = 8.0f;
     float sizeStartMultiplier = 1.0f;
-    float sizeEndMultiplier = 0.2f;
-    float sizeCurve = 1.0f;
+    float sizeEndMultiplier = 0.75f;
+    float sizeCurve = 0.7f;
 
     ParticleSystem();
     ~ParticleSystem();
