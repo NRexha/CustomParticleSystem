@@ -2,7 +2,9 @@
 
 #include <cstddef>
 
-struct alignas(16) Particle {
+//props to The Cherno and Never Engine Studios
+struct alignas(16) Particle 
+{
     float position[4];
     float velocity[4];
     float age;
